@@ -194,7 +194,7 @@ const Coin = () => {
         </Title>
       </Header>
       <HomeBtn>
-        <Link to="/">
+        <Link to={process.env.PUBLIC_URL + "/"}>
           <button>Go Home</button>
         </Link>
       </HomeBtn>
