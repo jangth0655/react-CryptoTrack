@@ -38,7 +38,7 @@ const Overview = styled.div`
   display: flex;
   justify-content: space-between;
   background-color: ${(props) => props.theme.bgColor};
-  padding: 10px 20px;
+  padding: 0.6em 1.25px;
   border-radius: 10px;
 `;
 const OverviewItem = styled.div`
@@ -46,21 +46,21 @@ const OverviewItem = styled.div`
   flex-direction: column;
   align-items: center;
   span:first-child {
-    font-size: 10px;
+    font-size: 0.5rem;
     font-weight: 400;
     text-transform: uppercase;
-    margin-bottom: 5px;
+    margin-bottom: 0.3em;
   }
 `;
 const Description = styled.p`
-  margin: 20px 0px;
+  margin: 1.25em 0px;
 `;
 
 const Tabs = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 25px 0px;
-  gap: 10px;
+  margin: 1.5rem 0px;
+  gap: 0.6rem;
   height: 1em;
   line-height: 1em;
 `;
