@@ -4,14 +4,7 @@ import { ChartProps, IHistorical } from "./Chart";
 import ApexChart from "react-apexcharts";
 import { useRecoilValue } from "recoil";
 import { isDarkState } from "../atoms";
-import styled from "styled-components";
-
-interface IPriceHistorical {
-  open: number;
-  high: number;
-  low: number;
-  close: number;
-}
+//import styled from "styled-components";
 
 function Price({ coinId }: ChartProps) {
   const isDark = useRecoilValue(isDarkState);
