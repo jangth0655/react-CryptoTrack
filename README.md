@@ -1,2 +1,2 @@
-# React-typescript-chart 
+# React-typescript-bitcoin-basic
 
